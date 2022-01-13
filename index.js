@@ -1,8 +1,4 @@
 
-var script = document.createElement('script');
-script.src = 'https://code.jquery.com/jquery-3.6.0.js';
-script.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(script);
-
-
-console.log($)
+$(document).ready( function() {
+    jAlert('Example of a basic alert box in jquery', 'jquery basic alert box');
+});
